@@ -51,8 +51,8 @@ It demonstrates *data onboarding, API validation, deployment, and rollback autom
 ---
 
 ## 🧪 Example Output
-✅ 50,000 records generated successfully
-✅ 49,000 records loaded into SQLite (98% accuracy)
-✅ Flask API validated transaction successfully
-✅ Deployment completed successfully
-🔁 Rollback completed successfully
+*✅ 50,000 records generated successfully*
+*✅ 49,000 records loaded into SQLite (98% accuracy)*
+*✅ Flask API validated transaction successfully*
+*✅ Deployment completed successfully*
+*🔁 Rollback completed successfully*
