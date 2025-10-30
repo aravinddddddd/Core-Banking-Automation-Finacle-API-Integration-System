@@ -31,4 +31,23 @@ It demonstrates *data onboarding, API validation, deployment, and rollback autom
 
 ---
 
-## 📂 Folder Structure
+## ⚙ How It Works
+
+1. *Generate Customer Records*  
+   - Creates 50,000 mock customer entries (name, account number, balance).  
+   - Saved to sample_customers.csv.
+
+2. *Database Integration*  
+   - Loads clean records into bank.db (98% mapping accuracy).
+
+3. *Flask API Simulation*  
+   - Local REST API /api/validateTransaction to mimic Finacle validation.  
+   - Responses simulated using test harness.
+
+4. *Deployment & Rollback Automation*  
+   - Creates deployment_logs/deploy.log for successful runs.  
+   - Rollback removes last deployment entry (audit-safe).
+
+---
+
+## 🧪 Example Output
